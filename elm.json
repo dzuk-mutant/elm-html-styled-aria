@@ -1,17 +1,17 @@
 {
     "type": "package",
-    "name": "fapian/elm-html-aria",
-    "summary": "Aria attributes for Elm",
+    "name": "dzuk-mutant/elm-html-styled-aria",
+    "summary": "Aria attributes that are easily compatible with elm-css",
     "license": "BSD-3-Clause",
-    "version": "1.3.1",
+    "version": "1.0.0",
     "exposed-modules": [
-        "Html.Attributes.Aria"
+        "Html.Styled.Attributes.Aria"
     ],
     "elm-version": "0.19.0 <= v < 0.20.0",
     "dependencies": {
         "elm/core": "1.0.0 <= v < 2.0.0",
-        "elm/html": "1.0.0 <= v < 2.0.0",
-        "elm/json": "1.0.0 <= v < 2.0.0"
+        "elm/json": "1.0.0 <= v < 2.0.0",
+        "rtfeldman/elm-css": "16.0.2 <= v < 17.0.0"
     },
     "test-dependencies": {}
 }

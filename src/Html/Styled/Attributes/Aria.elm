@@ -1,4 +1,4 @@
-module Html.Attributes.Aria
+module Html.Styled.Attributes.Aria
     exposing
         ( ariaActiveDescendant
         , ariaChecked
@@ -52,8 +52,8 @@ module Html.Attributes.Aria
 
 -}
 
-import Html exposing (Attribute)
-import Html.Attributes exposing (attribute)
+import Html.Styled exposing (Attribute)
+import Html.Styled.Attributes exposing (attribute)
 import Json.Encode as JE
 
 
